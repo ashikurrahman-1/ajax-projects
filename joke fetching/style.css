@@ -1,0 +1,50 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080606;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    width: 350px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(39, 39, 39);
+        margin: 10px 0;
+    }
+    button{
+        padding: 8px 20px;
+        border-radius: 8px;
+        background-color: lightseagreen;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            background-color: blueviolet;
+            color: white;
+        }
+    }
+}
