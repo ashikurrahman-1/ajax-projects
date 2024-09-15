@@ -9,7 +9,7 @@ function dataToCard() {
         data.slice(0, 12).map((post)=>{
             row.innerHTML = row.innerHTML + `
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="${post.url}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">${post.title}</h5>
