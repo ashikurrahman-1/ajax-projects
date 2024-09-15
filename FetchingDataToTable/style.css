@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    border-spacing: 5px;
+
+    tr {
+        margin-bottom: 5px !important;
+
+        &:nth-child(even) {
+            background-color: lightgoldenrodyellow;
+        }
+
+        td {
+            border: 1px solid gray;
+            padding: 5px !important;
+            border-radius: 12px;
+        
+            &:hover {
+                background-color: lightgreen;
+            }
+        
+            &:first-child {
+                text-align: center;
+            }
+        }
+    }
+}
